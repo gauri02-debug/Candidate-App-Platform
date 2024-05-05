@@ -30,7 +30,7 @@ Follow these steps to get your development environment running:
    Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/gauri02-debug/candidateApplicationPlatform.git
+   git clone https://github.com/gauri02-debug/Candidate-App-Platform.git
 
 2. **Go to Project Directory**
    ```bash
