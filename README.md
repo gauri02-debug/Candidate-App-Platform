@@ -1,40 +1,16 @@
 # Candidate Application Platform
 
 ## Introduction
-- This React-based web application is designed to help users specifically Skilled Professionals to  search and apply for jobs effectively. 
-- It utilizes Redux for state management and Material-UI for a polished user interface
-- It provides  functionality such as filtering jobs based on various criteria such as 
-                 Role,
-                 Company Name,
-                Experience,
-                Salary
-                
-     and infinite scrolling for job listings.
+The Candidate Application Platform is a web application developed using React, Redux, and Material-UI. It aims to assist skilled professionals in efficiently searching for and applying to job opportunities. Redux is employed for state management, while Material-UI provides a modern and user-friendly interface.
+
+Key features of the platform include dynamic job search functionality with filters for location, company name, job role, experience, and salary. Additionally, it implements infinite scrolling for job listings, enhancing user experience by loading more jobs as the user scrolls down the page.
 
 ## Features
 - **Dynamic Job Search**: Users can search for jobs using filters like location, company name,job role, experience, and more.
 - **Infinite Scrolling**: Enhances user experience by loading jobs as the user scrolls, reducing initial load times.
 - **Responsive Design**: The application is fully responsive, providing an optimal browsing experience on both desktops and mobile devices.
 
-## Folder Structure
-Below is the project's directory structure:
 
-    |-- /public/                   # contains index.html
-        |-- index.html                 
-    |-- /src/                   
-        |-- /jobComponents/         # contains all the components for showing in jobs section
-        |-- /app            # configures and exports the Redux store, integrating reducers  like jobsReducer 
-            |--store.js
-        |--features
-            |--jobSlice.js  #contains logic for fetching, filtering the state of job listings in application.
-        |-- /shared/      # contains usable components such as for button and filterComponents
-            |-- /buttons/   
-            |-- /description/   
-            |-- /filtersUi/
-        |-- App.js
-        |-- index.js
-    |-- README.md    # contains details and well documentation for the project abd how to use the project
-    |--requirements.txt   # contains the required dependencies that needs to be installed using npm i
 ## Tech Stack Used
 - Reactjs : Used as frontend Framework
 - Redux : Used for fetching Api,filtering and managing states
@@ -54,11 +30,11 @@ Follow these steps to get your development environment running:
    Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/hubdev04/candidateApplicationPlatform.git
+   git clone https://github.com/gauri02-debug/candidateApplicationPlatform.git
 
 2. **Go to Project Directory**
    ```bash
-    cd ./candidateApplicationPlatform
+    cd ./Candidate-App-Platform
 3. **install neccessary packages and get node_modules folder**
    ```bash
     npm i
